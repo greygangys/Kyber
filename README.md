@@ -1,39 +1,21 @@
-# Briar
-Briar is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate.
+<h1 align="center" id="title">Kyber</h1>
 
-Unlike traditional messaging apps, Briar doesn't rely on a central server - messages are synchronized directly between the users' devices. 
+<p id="description">
+  <strong>Kyber</strong> is a messaging application developed to enhance the <strong>security</strong>, <strong>user-friendliness</strong>, and <strong>anonymity</strong> of Briar.<br><br>
+  Designed for <strong>activists</strong>, <strong>journalists</strong>, and anyone who needs a secure and robust way to communicate, Kyber builds upon the solid foundation laid by the Briar team, adding significant improvements for even greater <strong>privacy</strong> and <strong>usability</strong>.<br><br>
+  <em>A special thanks goes to the developers of Briar for their remarkable work in creating a secure, decentralized platform. Without their efforts, Kyber wouldn’t be possible.</em>
+</p>
 
-If the Internet's down, Briar can sync via Bluetooth or Wi-Fi, keeping information flowing in a crisis. If the Internet's up, Briar can sync via the Tor network, protecting users and their relationships from surveillance.
 
-## Download Briar
+<h2 id="features">Key Features</h2>
 
-[<img src="https://briarproject.org//img/fdroid_badge.png"  width="240">](https://briarproject.org/fdroid)
-[<img src="https://briarproject.org/img/google_play_badge_web_generic.png"  width="240">](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
+<ul>
+  <li><strong>Enhanced Security and Privacy</strong>: Kyber operates without relying on a central server. Messages are synchronized directly between users’ devices, ensuring secure peer-to-peer communication.</li>
+  <li><strong>AES-256 Encryption Layer</strong>: Kyber incorporates an additional layer of AES-256 encryption on top of existing security measures for even greater protection of user messages.</li>
+  <li><strong>Custom Bridge Support</strong>: Users can now add their own custom Bridges, providing additional flexibility for establishing secure connections.</li>
+  <li><strong>Offline Synchronization Removed</strong>: To further simplify and secure communication, Kyber has removed the option to add peers via Bluetooth and sync over Wi-Fi.</li>
+</ul>
 
-You can also [download the APK file](https://briarproject.org/apk) directly from
-our site.
 
-## Useful links
-[Project website](https://briarproject.org/)
 
-[Source code](https://code.briarproject.org/briar/briar/tree/master)
 
-[User manual](https://briarproject.org/manual/)
-
-[Wiki](https://code.briarproject.org/briar/briar/-/wikis/home)
-
-[Privacy policy](https://briarproject.org/privacy)
-
-## Reproducible builds
-
-We provide [docker images](https://code.briarproject.org/briar/briar-reproducer#briar-reproducer)
-to ease the task of verifying that the published APK binaries
-include nothing but our publicly available source code.
-
-You can either use those images or use them as a blueprint to build your own environment
-for reproduction.
-
-## Donate
-
-[![Donate using Liberapay](https://briarproject.org/img/liberapay.svg)](https://liberapay.com/Briar/donate)   
-Bitcoin and BCH: 1NZCKkUCtJV2U2Y9hDb9uq8S7ksFCFGR6K
